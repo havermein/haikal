@@ -5,7 +5,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
   const [location] = useLocation();
 
   const navItems = [
-    { href: "/", label: "Beranda", icon: Home },
+    { href: "/home", label: "Beranda", icon: Home },
     { href: "/game", label: "Mulai Main", icon: Briefcase },
     { href: "/result", label: "Progress", icon: Trophy },
   ];
@@ -14,11 +14,11 @@ export function Layout({ children }: { children: React.ReactNode }) {
     <div className="min-h-screen flex flex-col bg-background font-sans text-foreground">
       <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2 font-heading font-bold text-xl text-primary hover:opacity-80 transition-opacity">
+          <Link href="/home" className="flex items-center gap-2 font-heading font-bold text-xl text-primary hover:opacity-80 transition-opacity">
             <div className="bg-primary text-primary-foreground p-1.5 rounded-lg">
               <GraduationCap className="w-6 h-6" />
             </div>
-            <span className="hidden sm:inline-block tracking-tight text-foreground">Siap<span className="text-primary">Kerja</span></span>
+            <span className="hidden sm:inline-block tracking-tight text-foreground">Haikal<span className="text-primary">Joanelman</span></span>
           </Link>
 
           <nav className="flex items-center gap-1 sm:gap-2">

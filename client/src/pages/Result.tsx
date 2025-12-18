@@ -100,8 +100,8 @@ export default function Result() {
         </Card>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
-          <Link href="/">
-            <Button variant="outline" size="lg" className="w-full sm:w-auto h-12">
+          <Link href="/home" className="w-full sm:w-auto">
+            <Button variant="outline" size="lg" className="w-full h-12">
               <Home className="mr-2 w-4 h-4" /> Kembali ke Beranda
             </Button>
           </Link>

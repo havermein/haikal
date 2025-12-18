@@ -24,10 +24,12 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <Link href="/game" className={cn(buttonVariants({ size: "lg" }), "h-14 px-8 text-lg rounded-xl shadow-lg shadow-primary/20 hover:shadow-primary/40 hover:-translate-y-1 transition-all")}>
-              Mulai Bermain <ArrowRight className="ml-2 w-5 h-5" />
+              <a>
+                Mulai Bermain <ArrowRight className="ml-2 w-5 h-5" />
+              </a>
             </Link>
             <Link href="/result" className={cn(buttonVariants({ variant: "outline", size: "lg" }), "h-14 px-8 text-lg rounded-xl border-2 hover:bg-muted/50")}>
-              Lihat Progress
+              <a>Lihat Progress</a>
             </Link>
           </div>
 

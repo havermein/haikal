@@ -48,8 +48,10 @@ export default function GameHub() {
                   href="/game/quiz" 
                   className={cn(buttonVariants({ variant: "default" }), "w-full h-12 text-lg group-hover:bg-primary group-hover:text-primary-foreground transition-colors")}
                 >
-                  <PlayCircle className="mr-2 w-5 h-5" />
-                  {score.quizCompleted ? "Main Lagi" : "Mulai Kuis"}
+                  <a className="flex items-center justify-center w-full">
+                    <PlayCircle className="mr-2 w-5 h-5" />
+                    {score.quizCompleted ? "Main Lagi" : "Mulai Kuis"}
+                  </a>
                 </Link>
               </div>
             </CardContent>
@@ -89,8 +91,10 @@ export default function GameHub() {
                     !score.simulationCompleted && 'bg-success hover:bg-success/90 text-white border-success'
                   )}
                 >
-                  <PlayCircle className="mr-2 w-5 h-5" />
-                  {score.simulationCompleted ? "Main Lagi" : "Mulai Simulasi"}
+                  <a className="flex items-center justify-center w-full">
+                    <PlayCircle className="mr-2 w-5 h-5" />
+                    {score.simulationCompleted ? "Main Lagi" : "Mulai Simulasi"}
+                  </a>
                 </Link>
               </div>
             </CardContent>
