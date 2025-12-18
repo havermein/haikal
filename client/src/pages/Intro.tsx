@@ -12,7 +12,7 @@ export default function Intro() {
   }, []);
 
   const handleStart = () => {
-    setLocation("/home");
+    setLocation("/name");
   };
 
   return (
