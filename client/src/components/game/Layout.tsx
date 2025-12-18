@@ -49,9 +49,11 @@ export function Layout({ children }: { children: React.ReactNode }) {
       </main>
 
       <footer className="border-t bg-muted/30 py-6 md:py-8">
-        <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
-          <p className="font-medium mb-2">Game Edukasi Ketenagakerjaan</p>
-          <p>© 2025 SiapKerja Project. Dibuat untuk Pelajar Indonesia 🇮🇩</p>
+        <div className="container mx-auto px-4 text-center text-sm text-muted-foreground space-y-1">
+          <p className="font-medium">Game Edukasi Ketenagakerjaan</p>
+          <p>© 2025 SiapKerja Project</p>
+          <p className="text-xs">Dibuat oleh <span className="font-semibold text-foreground">Haikal Joanelman</span></p>
+          <p className="text-xs">Untuk Pelajar Indonesia 🇮🇩</p>
         </div>
       </footer>
     </div>
