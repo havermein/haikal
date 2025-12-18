@@ -40,6 +40,9 @@ export default function Intro() {
           <p className="text-xl md:text-2xl text-muted-foreground font-medium">
             Game Edukasi Ketenagakerjaan
           </p>
+          <p className="text-sm text-muted-foreground/80 pt-2">
+            Dibuat oleh <span className="font-semibold text-foreground">Haikal Joanelman</span>
+          </p>
         </div>
 
         {/* Description */}
