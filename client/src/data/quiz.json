@@ -1,0 +1,65 @@
+{
+  "title": "Kuis Ketenagakerjaan",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Apa dokumen paling penting yang harus disiapkan saat melamar kerja?",
+      "options": [
+        "Kartu Member Gym",
+        "CV (Curriculum Vitae) & Portofolio",
+        "Daftar Belanja Bulanan",
+        "Surat Cinta"
+      ],
+      "answer": 1,
+      "explanation": "CV dan Portofolio adalah rangkuman keahlian dan pengalamanmu yang menjadi pertimbangan utama rekruter."
+    },
+    {
+      "id": 2,
+      "question": "Berapa lama waktu ideal untuk datang sebelum jadwal interview?",
+      "options": [
+        "1 jam sebelumnya",
+        "Pas jamnya (tepat waktu)",
+        "15-20 menit sebelumnya",
+        "Terlambat sedikit tidak apa-apa"
+      ],
+      "answer": 2,
+      "explanation": "Datang 15-20 menit lebih awal menunjukkan kedisiplinan dan memberimu waktu untuk menenangkan diri."
+    },
+    {
+      "id": 3,
+      "question": "Apa hak dasar pekerja yang wajib diberikan perusahaan?",
+      "options": [
+        "Makan siang gratis tiap hari",
+        "Jatah cuti & upah sesuai UMR",
+        "Antar jemput pribadi",
+        "Liburan ke luar negeri setahun sekali"
+      ],
+      "answer": 1,
+      "explanation": "Sesuai UU Ketenagakerjaan, pekerja berhak atas upah layak (minimal UMR), cuti, dan jaminan sosial."
+    },
+    {
+      "id": 4,
+      "question": "Bagaimana sikap tubuh yang baik saat interview?",
+      "options": [
+        "Bersandar santai & kaki naik ke kursi",
+        "Duduk tegak, kontak mata, & senyum sopan",
+        "Menunduk terus karena malu",
+        "Main HP biar tidak bosan"
+      ],
+      "answer": 1,
+      "explanation": "Body language yang positif (tegak, kontak mata) menunjukkan kepercayaan diri dan rasa hormat."
+    },
+    {
+      "id": 5,
+      "question": "Apa itu 'Soft Skill' dalam dunia kerja?",
+      "options": [
+        "Kemampuan teknis seperti coding",
+        "Kemampuan interpersonal (komunikasi, kerjasama)",
+        "Keahlian bela diri",
+        "Kemampuan tidur cepat"
+      ],
+      "answer": 1,
+      "explanation": "Soft skill adalah kemampuan non-teknis yang berhubungan dengan kepribadian dan interaksi sosial."
+    }
+  ]
+}

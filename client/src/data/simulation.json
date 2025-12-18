@@ -1,0 +1,56 @@
+{
+  "title": "Simulasi Dunia Kerja",
+  "scenarios": [
+    {
+      "id": 1,
+      "title": "Panggilan Interview Pertama",
+      "description": "Kamu baru saja mendapat email panggilan interview untuk posisi magang di perusahaan impianmu besok pagi jam 9.",
+      "choices": [
+        {
+          "text": "Begadang main game biar tidak gugup, besok bangun mepet.",
+          "score": 0,
+          "feedback": "Kurang tepat! Begadang bikin wajah kusam dan otak tidak fokus saat interview."
+        },
+        {
+          "text": "Riset tentang perusahaan, siapkan baju rapi, dan tidur lebih awal.",
+          "score": 100,
+          "feedback": "Sangat tepat! Persiapan matang adalah kunci kesuksesan interview."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Negosiasi Gaji",
+      "description": "HRD bertanya: 'Berapa ekspektasi gaji kamu?' Padahal ini pekerjaan pertamamu.",
+      "choices": [
+        {
+          "text": "Jawab 'Terserah bapak/ibu saja', saya butuh kerja.",
+          "score": 50,
+          "feedback": "Terlalu pasrah bisa merugikanmu. Sebaiknya riset dulu standar gajinya."
+        },
+        {
+          "text": "Sebutkan kisaran angka berdasarkan riset pasar dan UMR, tapi tetap fleksibel.",
+          "score": 100,
+          "feedback": "Cerdas! Ini menunjukkan kamu tahu nilai dirimu dan profesional."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Deadline Mendadak",
+      "description": "Atasanmu memberikan tugas tambahan jam 4 sore yang harus selesai hari ini, padahal jam pulang jam 5.",
+      "choices": [
+        {
+          "text": "Marah-marah dan langsung pulang tenggo.",
+          "score": 0,
+          "feedback": "Tidak profesional. Ini bisa merusak reputasimu di kantor."
+        },
+        {
+          "text": "Cek prioritas. Jika urgent, kerjakan sebisa mungkin atau komunikasikan progressnya.",
+          "score": 100,
+          "feedback": "Profesional! Komunikasi dan tanggung jawab sangat dihargai."
+        }
+      ]
+    }
+  ]
+}
