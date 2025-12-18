@@ -1,0 +1,192 @@
+Role & Mindset
+Kamu adalah senior front-end engineer + UI/UX designer profesional.
+Buat website game edukasi ketenagakerjaan yang menarik, modern, responsif, dan mudah dipahami pelajar.
+Project harus static-only dan langsung bisa di-deploy ke Vercel tanpa konfigurasi rumit.
+
+🎯 Tujuan Website
+
+Website game edukatif untuk:
+
+Pelajar SMA/SMK
+
+Mahasiswa awal
+
+Pencari kerja pemula
+
+Materi utama:
+
+Hak & kewajiban pekerja
+
+Proses melamar kerja
+
+Etika dan budaya kerja
+
+Hubungan pekerja & perusahaan
+
+Game harus seru, ringan, dan edukatif.
+
+🧩 Fitur WAJIB (MVP Berkualitas)
+1️⃣ Landing Page
+
+Hero section modern
+
+Judul besar + deskripsi singkat
+
+Tombol Mulai Bermain
+
+Ilustrasi / icon sederhana (CSS / SVG)
+
+2️⃣ Game Kuis Interaktif
+
+Multiple choice
+
+Soal dari file JSON
+
+Feedback langsung (benar / salah)
+
+Penjelasan singkat tiap jawaban
+
+3️⃣ Simulasi Dunia Kerja
+
+Skenario melamar kerja
+
+Pilihan jawaban berbasis keputusan
+
+Hasil akhir + pesan edukatif
+
+4️⃣ Sistem Skor & Progress
+
+Skor real-time
+
+Progress bar
+
+Disimpan di LocalStorage
+
+Halaman hasil akhir
+
+🎨 UI / UX (WAJIB BAGUS)
+
+Desain clean & modern
+
+Warna edukatif (biru / hijau / putih)
+
+Font Google Fonts (Poppins / Inter)
+
+Button animasi hover
+
+Card layout
+
+Mobile-first & responsive
+
+UX ramah pelajar
+
+🛠️ Teknologi (WAJIB)
+
+HTML5
+
+CSS3 (Flexbox / Grid)
+
+Vanilla JavaScript
+
+TANPA backend
+
+TANPA database
+
+Semua data dari JSON
+
+Semua logic di browser
+
+📂 Struktur Folder FINAL
+/
+├─ index.html
+├─ game.html
+├─ result.html
+├─ style.css
+├─ script.js
+├─ data/
+│   ├─ quiz.json
+│   └─ simulation.json
+├─ assets/
+│   └─ icons.svg
+└─ vercel.json
+
+📄 Format Data (Contoh)
+quiz.json
+{
+  "title": "Kuis Ketenagakerjaan",
+  "questions": [
+    {
+      "question": "Apa yang harus disiapkan sebelum melamar kerja?",
+      "options": [
+        "Datang tanpa persiapan",
+        "CV dan surat lamaran",
+        "Menunggu dipanggil",
+        "Tidak perlu apa-apa"
+      ],
+      "answer": 1,
+      "explanation": "CV dan surat lamaran adalah dokumen wajib saat melamar kerja."
+    }
+  ]
+}
+
+⚙️ Ketentuan Teknis Penting
+
+Gunakan fetch() untuk load JSON
+
+Gunakan LocalStorage untuk:
+
+skor
+
+progress
+
+Kode bersih, modular, dan diberi komentar
+
+Tidak boleh error di browser
+
+Bisa dijalankan hanya dengan open index.html
+
+🌐 Hosting (WAJIB Vercel Friendly)
+
+Static website
+
+Tidak pakai server Node
+
+Tidak pakai Express
+
+Siap deploy via GitHub → Vercel
+
+Sertakan vercel.json sederhana
+
+📦 Output yang HARUS DIBUAT
+
+Semua file lengkap
+
+UI terlihat profesional
+
+Game bisa dimainkan penuh
+
+Skor & hasil tampil dengan benar
+
+Instruksi singkat deploy ke Vercel
+
+✨ BONUS (Jika Mampu)
+
+Animasi transisi halaman
+
+Badge motivasi
+
+Dark mode toggle
+
+Sound effect ringan
+
+📌 PRIORITAS UTAMA
+
+Tampilan menarik & rapi
+
+UX mudah dipahami pelajar
+
+Mudah dinilai guru
+
+Mudah hosting ke Vercel
+
+🔥 Bangun website ini dengan kualitas terbaik, seolah ini adalah project portofolio profesional.
