@@ -51,6 +51,91 @@
           "feedback": "Profesional! Komunikasi dan tanggung jawab sangat dihargai."
         }
       ]
+    },
+    {
+      "id": 4,
+      "title": "Konflik dengan Rekan Kerja",
+      "description": "Rekan kerjamu mengklaim bahwa ide yang kamu kerjakan adalah idenya. Atasan akan memberikan penghargaan minggu depan.",
+      "choices": [
+        {
+          "text": "Langsung lapor atasan dengan emosi tinggi dan tuduhan.",
+          "score": 40,
+          "feedback": "Kurang efektif. Emosi tinggi bisa membuat situasi lebih buruk."
+        },
+        {
+          "text": "Diskusi langsung dengan rekan kerja secara profesional dan damai, dokumentasikan bukti kerja.",
+          "score": 100,
+          "feedback": "Sempurna! Komunikasi langsung & profesional adalah cara terbaik menyelesaikan konflik."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Kesalahan di Pekerjaan",
+      "description": "Kamu baru menyadari bahwa ada kesalahan kecil dalam report yang sudah dikirim ke klien sejak pagi tadi.",
+      "choices": [
+        {
+          "text": "Diam saja dan harap-harap cemas, semoga tidak ketahuan.",
+          "score": 0,
+          "feedback": "Risiko besar! Transparansi lebih baik daripada masalah membesar nanti."
+        },
+        {
+          "text": "Segera beri tahu atasan, jelaskan error, dan tawarkan solusi perbaikan.",
+          "score": 100,
+          "feedback": "Sangat bertanggung jawab! Jujur dan proaktif adalah nilai tinggi di perusahaan."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Promosi atau Tantangan Baru",
+      "description": "Atasan menawarkan posisi project manager baru tapi dengan beban kerja sangat berat. Gaji naik 30%, tapi overtime jaminan.",
+      "choices": [
+        {
+          "text": "Langsung terima karena gaji besar, pikir nanti soal work-life balance.",
+          "score": 50,
+          "feedback": "Uang penting, tapi kesehatan juga. Pertimbangkan long-term impact pada kesejahteraanmu."
+        },
+        {
+          "text": "Tanya detail tentang beban kerja, work-life balance, dan apakah ada dukungan tim sebelum keputusan.",
+          "score": 100,
+          "feedback": "Bijak! Ambil keputusan berdasarkan informasi lengkap untuk karir jangka panjang."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Pertemuan Dengan Klien Penting",
+      "description": "Saat meeting dengan klien besar, bosmu tidak bisa hadir. Kamu diminta stand-in untuk presentasi produk baru.",
+      "choices": [
+        {
+          "text": "Menolak karena takut dan mengusulkan reschedule meeting.",
+          "score": 30,
+          "feedback": "Peluang berkembang terlewat. Tantangan adalah cara terbaik belajar dan terbukti kemampuan."
+        },
+        {
+          "text": "Terima tantangan, persiapkan dengan matang, dan communicate dengan boss tentang strategi.",
+          "score": 100,
+          "feedback": "Luar biasa! Ini cara menunjukkan potensi dan kepercayaan diri profesional."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Lingkungan Kerja Toxic",
+      "description": "Suasana kantor tidak sehat: bos sering marah, rekan kerja bergosip, dan ada tekanan kerja berlebih.",
+      "choices": [
+        {
+          "text": "Tahan saja dan berharap situasi membaik dengan sendirinya.",
+          "score": 20,
+          "feedback": "Berbahaya untuk kesehatan mental. Jangan ragu untuk ambil tindakan."
+        },
+        {
+          "text": "Dokumentasikan, diskusi dengan HR, atau pertimbangkan mencari pekerjaan lebih sehat.",
+          "score": 100,
+          "feedback": "Tepat! Kesehatan mental sama pentingnya dengan kesuksesan karir."
+        }
+      ]
     }
   ]
 }

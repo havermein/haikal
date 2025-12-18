@@ -60,6 +60,66 @@
       ],
       "answer": 1,
       "explanation": "Soft skill adalah kemampuan non-teknis yang berhubungan dengan kepribadian dan interaksi sosial."
+    },
+    {
+      "id": 6,
+      "question": "Apa yang harus dilakukan jika ditanya 'Ceritakan tentang dirimu' saat interview?",
+      "options": [
+        "Cerita tentang keluarga dan kehidupan pribadi secara detail",
+        "Jawab dengan singkat tentang latar belakang, pengalaman, dan alasan melamar",
+        "Bilang 'Saya orang biasa aja'",
+        "Cerita tentang hobby bermain game dan traveling"
+      ],
+      "answer": 1,
+      "explanation": "Fokus pada pengalaman profesional, keahlian yang relevan, dan alasan tertarik dengan posisi tersebut."
+    },
+    {
+      "id": 7,
+      "question": "Kapan waktu terbaik untuk mengirim CV ke perusahaan?",
+      "options": [
+        "Malam hari sebelum tidur",
+        "Pukul 4 pagi",
+        "Hari kerja pada jam kerja (8-11 pagi atau 2-4 sore)",
+        "Hari Minggu pagi"
+      ],
+      "answer": 2,
+      "explanation": "Mengirim pada jam kerja meningkatkan peluang CVmu dibaca segera oleh HRD."
+    },
+    {
+      "id": 8,
+      "question": "Apa kewajiban pekerja terhadap perusahaan?",
+      "options": [
+        "Bekerja sesuai kesepakatan, mematuhi aturan, dan menjaga rahasia perusahaan",
+        "Hanya datang, tidak perlu bekerja keras",
+        "Boleh datang dan pulang kapan saja",
+        "Hanya wajib berbicara, tidak perlu beraksi"
+      ],
+      "answer": 0,
+      "explanation": "Pekerja harus memenuhi kewajiban profesional termasuk kedisiplinan dan etika kerja."
+    },
+    {
+      "id": 9,
+      "question": "Berapa lama perusahaan biasanya mengumumkan hasil interview?",
+      "options": [
+        "1-2 hari",
+        "3-7 hari (bervariasi sesuai perusahaan)",
+        "1 bulan",
+        "Tidak akan pernah diumumkan"
+      ],
+      "answer": 1,
+      "explanation": "Waktu bervariasi tergantung proses rekrutmen perusahaan, tapi rata-rata 3-7 hari."
+    },
+    {
+      "id": 10,
+      "question": "Apa yang bukan kategori diskriminasi kerja di Indonesia?",
+      "options": [
+        "Diskriminasi berdasarkan ras dan agama",
+        "Diskriminasi berdasarkan gender tanpa alasan bisnis",
+        "Penolakan berdasarkan kualifikasi yang tidak sesuai",
+        "Diskriminasi berdasarkan status perkawinan"
+      ],
+      "answer": 2,
+      "explanation": "Perusahaan berhak menolak berdasarkan kompetensi. Hal lain termasuk diskriminasi yang dilindungi hukum."
     }
   ]
 }
